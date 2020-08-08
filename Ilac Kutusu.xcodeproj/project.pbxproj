@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D53033F924DEC0D300893AEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53033F824DEC0D300893AEA /* AppDelegate.swift */; };
+		D53033FB24DEC0D300893AEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53033FA24DEC0D300893AEA /* SceneDelegate.swift */; };
+		D53033FE24DEC0D300893AEA /* Ilac_Kutusu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D53033FC24DEC0D300893AEA /* Ilac_Kutusu.xcdatamodeld */; };
+		D530340024DEC0D300893AEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53033FF24DEC0D300893AEA /* ContentView.swift */; };
+		D530340224DEC0D500893AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D530340124DEC0D500893AEA /* Assets.xcassets */; };
+		D530340524DEC0D500893AEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D530340424DEC0D500893AEA /* Preview Assets.xcassets */; };
+		D530340824DEC0D500893AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D530340624DEC0D500893AEA /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D53033F524DEC0D300893AEA /* Ilac Kutusu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ilac Kutusu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53033F824DEC0D300893AEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D53033FA24DEC0D300893AEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D53033FD24DEC0D300893AEA /* Ilac_Kutusu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ilac_Kutusu.xcdatamodel; sourceTree = "<group>"; };
+		D53033FF24DEC0D300893AEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D530340124DEC0D500893AEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D530340424DEC0D500893AEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D530340724DEC0D500893AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D530340924DEC0D500893AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D53033F224DEC0D300893AEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D53033EC24DEC0D300893AEA = {
+			isa = PBXGroup;
+			children = (
+				D53033F724DEC0D300893AEA /* Ilac Kutusu */,
+				D53033F624DEC0D300893AEA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D53033F624DEC0D300893AEA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D53033F524DEC0D300893AEA /* Ilac Kutusu.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D53033F724DEC0D300893AEA /* Ilac Kutusu */ = {
+			isa = PBXGroup;
+			children = (
+				D53033F824DEC0D300893AEA /* AppDelegate.swift */,
+				D53033FA24DEC0D300893AEA /* SceneDelegate.swift */,
+				D53033FF24DEC0D300893AEA /* ContentView.swift */,
+				D530340124DEC0D500893AEA /* Assets.xcassets */,
+				D530340624DEC0D500893AEA /* LaunchScreen.storyboard */,
+				D530340924DEC0D500893AEA /* Info.plist */,
+				D53033FC24DEC0D300893AEA /* Ilac_Kutusu.xcdatamodeld */,
+				D530340324DEC0D500893AEA /* Preview Content */,
+			);
+			path = "Ilac Kutusu";
+			sourceTree = "<group>";
+		};
+		D530340324DEC0D500893AEA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D530340424DEC0D500893AEA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D53033F424DEC0D300893AEA /* Ilac Kutusu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D530340C24DEC0D500893AEA /* Build configuration list for PBXNativeTarget "Ilac Kutusu" */;
+			buildPhases = (
+				D53033F124DEC0D300893AEA /* Sources */,
+				D53033F224DEC0D300893AEA /* Frameworks */,
+				D53033F324DEC0D300893AEA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ilac Kutusu";
+			productName = "Ilac Kutusu";
+			productReference = D53033F524DEC0D300893AEA /* Ilac Kutusu.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D53033ED24DEC0D300893AEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Can Ayışık";
+				TargetAttributes = {
+					D53033F424DEC0D300893AEA = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = D53033F024DEC0D300893AEA /* Build configuration list for PBXProject "Ilac Kutusu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D53033EC24DEC0D300893AEA;
+			productRefGroup = D53033F624DEC0D300893AEA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D53033F424DEC0D300893AEA /* Ilac Kutusu */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D53033F324DEC0D300893AEA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D530340824DEC0D500893AEA /* LaunchScreen.storyboard in Resources */,
+				D530340524DEC0D500893AEA /* Preview Assets.xcassets in Resources */,
+				D530340224DEC0D500893AEA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D53033F124DEC0D300893AEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53033F924DEC0D300893AEA /* AppDelegate.swift in Sources */,
+				D53033FB24DEC0D300893AEA /* SceneDelegate.swift in Sources */,
+				D530340024DEC0D300893AEA /* ContentView.swift in Sources */,
+				D53033FE24DEC0D300893AEA /* Ilac_Kutusu.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D530340624DEC0D500893AEA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D530340724DEC0D500893AEA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D530340A24DEC0D500893AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D530340B24DEC0D500893AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D530340D24DEC0D500893AEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ilac Kutusu/Preview Content\"";
+				DEVELOPMENT_TEAM = C3U458DP8W;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ilac Kutusu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "canayisik.Ilac-Kutusu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D530340E24DEC0D500893AEA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ilac Kutusu/Preview Content\"";
+				DEVELOPMENT_TEAM = C3U458DP8W;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ilac Kutusu/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "canayisik.Ilac-Kutusu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D53033F024DEC0D300893AEA /* Build configuration list for PBXProject "Ilac Kutusu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D530340A24DEC0D500893AEA /* Debug */,
+				D530340B24DEC0D500893AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D530340C24DEC0D500893AEA /* Build configuration list for PBXNativeTarget "Ilac Kutusu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D530340D24DEC0D500893AEA /* Debug */,
+				D530340E24DEC0D500893AEA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D53033FC24DEC0D300893AEA /* Ilac_Kutusu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D53033FD24DEC0D300893AEA /* Ilac_Kutusu.xcdatamodel */,
+			);
+			currentVersion = D53033FD24DEC0D300893AEA /* Ilac_Kutusu.xcdatamodel */;
+			path = Ilac_Kutusu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D53033ED24DEC0D300893AEA /* Project object */;
+}
