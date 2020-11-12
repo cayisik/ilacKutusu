@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D39C9750227415C18C1F8192 /* Pods_IlacKutusu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453FAF3551D207C5303F463F /* Pods_IlacKutusu.framework */; };
 		D53033F924DEC0D300893AEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53033F824DEC0D300893AEA /* AppDelegate.swift */; };
 		D53033FB24DEC0D300893AEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53033FA24DEC0D300893AEA /* SceneDelegate.swift */; };
 		D53033FE24DEC0D300893AEA /* Ilac_Kutusu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D53033FC24DEC0D300893AEA /* Ilac_Kutusu.xcdatamodeld */; };
@@ -15,10 +16,31 @@
 		D530340524DEC0D500893AEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D530340424DEC0D500893AEA /* Preview Assets.xcassets */; };
 		D530340824DEC0D500893AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D530340624DEC0D500893AEA /* LaunchScreen.storyboard */; };
 		D530341124DEC1D200893AEA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D530341024DEC1D200893AEA /* MainView.swift */; };
+		D5617CE824FA98EE00B67CEE /* TemaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5617CE724FA98EE00B67CEE /* TemaModel.swift */; };
+		D5617CEA24FA996700B67CEE /* TemaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5617CE924FA996700B67CEE /* TemaData.swift */; };
+		D5617CED24FA9A5300B67CEE /* TemaAyarlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5617CEC24FA9A5300B67CEE /* TemaAyarlar.swift */; };
+		D5ABE00824E81871004FA7E9 /* BosListeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ABE00724E81871004FA7E9 /* BosListeView.swift */; };
+		D5ABE00A24E82D22004FA7E9 /* AyarlarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5ABE00924E82D22004FA7E9 /* AyarlarView.swift */; };
+		D5B3E3AF24EDB6220053C67D /* Green.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3A624EDB6210053C67D /* Green.png */; };
+		D5B3E3B024EDB6220053C67D /* Pink Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3A724EDB6210053C67D /* Pink Dark.png */; };
+		D5B3E3B124EDB6220053C67D /* Pink.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3A824EDB6210053C67D /* Pink.png */; };
+		D5B3E3B224EDB6220053C67D /* Blue Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3A924EDB6210053C67D /* Blue Dark.png */; };
+		D5B3E3B324EDB6220053C67D /* Pink Light.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3AA24EDB6210053C67D /* Pink Light.png */; };
+		D5B3E3B424EDB6220053C67D /* Green Light.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3AB24EDB6220053C67D /* Green Light.png */; };
+		D5B3E3B524EDB6220053C67D /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3AC24EDB6220053C67D /* Blue.png */; };
+		D5B3E3B624EDB6220053C67D /* Green Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3AD24EDB6220053C67D /* Green Dark.png */; };
+		D5B3E3B724EDB6220053C67D /* Blue Light.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3AE24EDB6220053C67D /* Blue Light.png */; };
+		D5B3E3B924EDBE2B0053C67D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3B824EDBE2B0053C67D /* Default-568h@2x.png */; };
+		D5E1338F24EC6BB4007F8E8A /* FormRowStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E1338E24EC6BB4007F8E8A /* FormRowStaticView.swift */; };
+		D5E1339124EC6FC0007F8E8A /* FormRowLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E1339024EC6FC0007F8E8A /* FormRowLinkView.swift */; };
+		D5F0B9AC2503962000367F61 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5F0B9AB2503962000367F61 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D53033F524DEC0D300893AEA /* Ilac Kutusu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ilac Kutusu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0054261C75DA265941A87383 /* Pods-IlacKutusu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IlacKutusu.debug.xcconfig"; path = "Target Support Files/Pods-IlacKutusu/Pods-IlacKutusu.debug.xcconfig"; sourceTree = "<group>"; };
+		453FAF3551D207C5303F463F /* Pods_IlacKutusu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IlacKutusu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5585AAAB80C3FAEB12B8695D /* Pods-IlacKutusu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IlacKutusu.release.xcconfig"; path = "Target Support Files/Pods-IlacKutusu/Pods-IlacKutusu.release.xcconfig"; sourceTree = "<group>"; };
+		D53033F524DEC0D300893AEA /* IlacKutusu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IlacKutusu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D53033F824DEC0D300893AEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D53033FA24DEC0D300893AEA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D53033FD24DEC0D300893AEA /* Ilac_Kutusu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ilac_Kutusu.xcdatamodel; sourceTree = "<group>"; };
@@ -28,6 +50,24 @@
 		D530340724DEC0D500893AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D530340924DEC0D500893AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D530341024DEC1D200893AEA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D5617CE724FA98EE00B67CEE /* TemaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemaModel.swift; sourceTree = "<group>"; };
+		D5617CE924FA996700B67CEE /* TemaData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemaData.swift; sourceTree = "<group>"; };
+		D5617CEC24FA9A5300B67CEE /* TemaAyarlar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemaAyarlar.swift; sourceTree = "<group>"; };
+		D5ABE00724E81871004FA7E9 /* BosListeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BosListeView.swift; sourceTree = "<group>"; };
+		D5ABE00924E82D22004FA7E9 /* AyarlarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AyarlarView.swift; sourceTree = "<group>"; };
+		D5B3E3A624EDB6210053C67D /* Green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Green.png; sourceTree = "<group>"; };
+		D5B3E3A724EDB6210053C67D /* Pink Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pink Dark.png"; sourceTree = "<group>"; };
+		D5B3E3A824EDB6210053C67D /* Pink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pink.png; sourceTree = "<group>"; };
+		D5B3E3A924EDB6210053C67D /* Blue Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Dark.png"; sourceTree = "<group>"; };
+		D5B3E3AA24EDB6210053C67D /* Pink Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Pink Light.png"; sourceTree = "<group>"; };
+		D5B3E3AB24EDB6220053C67D /* Green Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Light.png"; sourceTree = "<group>"; };
+		D5B3E3AC24EDB6220053C67D /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
+		D5B3E3AD24EDB6220053C67D /* Green Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Dark.png"; sourceTree = "<group>"; };
+		D5B3E3AE24EDB6220053C67D /* Blue Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Light.png"; sourceTree = "<group>"; };
+		D5B3E3B824EDBE2B0053C67D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D5E1338E24EC6BB4007F8E8A /* FormRowStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowStaticView.swift; sourceTree = "<group>"; };
+		D5E1339024EC6FC0007F8E8A /* FormRowLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowLinkView.swift; sourceTree = "<group>"; };
+		D5F0B9AB2503962000367F61 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,24 +75,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D39C9750227415C18C1F8192 /* Pods_IlacKutusu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3190B244E48F57B39ADDCE28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				453FAF3551D207C5303F463F /* Pods_IlacKutusu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B505C9034B3693B181DC821 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0054261C75DA265941A87383 /* Pods-IlacKutusu.debug.xcconfig */,
+				5585AAAB80C3FAEB12B8695D /* Pods-IlacKutusu.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D53033EC24DEC0D300893AEA = {
 			isa = PBXGroup;
 			children = (
+				D5B3E3B824EDBE2B0053C67D /* Default-568h@2x.png */,
 				D53033F724DEC0D300893AEA /* Ilac Kutusu */,
 				D53033F624DEC0D300893AEA /* Products */,
+				5B505C9034B3693B181DC821 /* Pods */,
+				3190B244E48F57B39ADDCE28 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		D53033F624DEC0D300893AEA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D53033F524DEC0D300893AEA /* Ilac Kutusu.app */,
+				D53033F524DEC0D300893AEA /* IlacKutusu.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +122,9 @@
 		D53033F724DEC0D300893AEA /* Ilac Kutusu */ = {
 			isa = PBXGroup;
 			children = (
+				D5F0B9AB2503962000367F61 /* GoogleService-Info.plist */,
+				D5617CE624FA98C400B67CEE /* Tema */,
+				D5B3E3A524EDB5BA0053C67D /* Icons */,
 				D530340F24DEC14200893AEA /* View */,
 				D53033F824DEC0D300893AEA /* AppDelegate.swift */,
 				D53033FA24DEC0D300893AEA /* SceneDelegate.swift */,
@@ -85,28 +150,61 @@
 			children = (
 				D53033FF24DEC0D300893AEA /* ContentView.swift */,
 				D530341024DEC1D200893AEA /* MainView.swift */,
+				D5ABE00724E81871004FA7E9 /* BosListeView.swift */,
+				D5ABE00924E82D22004FA7E9 /* AyarlarView.swift */,
+				D5E1338E24EC6BB4007F8E8A /* FormRowStaticView.swift */,
+				D5E1339024EC6FC0007F8E8A /* FormRowLinkView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		D5617CE624FA98C400B67CEE /* Tema */ = {
+			isa = PBXGroup;
+			children = (
+				D5617CE724FA98EE00B67CEE /* TemaModel.swift */,
+				D5617CE924FA996700B67CEE /* TemaData.swift */,
+				D5617CEC24FA9A5300B67CEE /* TemaAyarlar.swift */,
+			);
+			path = Tema;
+			sourceTree = "<group>";
+		};
+		D5B3E3A524EDB5BA0053C67D /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				D5B3E3A924EDB6210053C67D /* Blue Dark.png */,
+				D5B3E3AE24EDB6220053C67D /* Blue Light.png */,
+				D5B3E3AC24EDB6220053C67D /* Blue.png */,
+				D5B3E3AD24EDB6220053C67D /* Green Dark.png */,
+				D5B3E3AB24EDB6220053C67D /* Green Light.png */,
+				D5B3E3A624EDB6210053C67D /* Green.png */,
+				D5B3E3A724EDB6210053C67D /* Pink Dark.png */,
+				D5B3E3AA24EDB6210053C67D /* Pink Light.png */,
+				D5B3E3A824EDB6210053C67D /* Pink.png */,
+			);
+			name = Icons;
+			path = "İkonlar";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D53033F424DEC0D300893AEA /* Ilac Kutusu */ = {
+		D53033F424DEC0D300893AEA /* IlacKutusu */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D530340C24DEC0D500893AEA /* Build configuration list for PBXNativeTarget "Ilac Kutusu" */;
+			buildConfigurationList = D530340C24DEC0D500893AEA /* Build configuration list for PBXNativeTarget "IlacKutusu" */;
 			buildPhases = (
+				C3309974DF5056C5E4D0F8E8 /* [CP] Check Pods Manifest.lock */,
 				D53033F124DEC0D300893AEA /* Sources */,
 				D53033F224DEC0D300893AEA /* Frameworks */,
 				D53033F324DEC0D300893AEA /* Resources */,
+				B832E204C5B04292430E8645 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Ilac Kutusu";
+			name = IlacKutusu;
 			productName = "Ilac Kutusu";
-			productReference = D53033F524DEC0D300893AEA /* Ilac Kutusu.app */;
+			productReference = D53033F524DEC0D300893AEA /* IlacKutusu.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -124,7 +222,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D53033F024DEC0D300893AEA /* Build configuration list for PBXProject "Ilac Kutusu" */;
+			buildConfigurationList = D53033F024DEC0D300893AEA /* Build configuration list for PBXProject "IlacKutusu" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -137,7 +235,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D53033F424DEC0D300893AEA /* Ilac Kutusu */,
+				D53033F424DEC0D300893AEA /* IlacKutusu */,
 			);
 		};
 /* End PBXProject section */
@@ -147,24 +245,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B3E3B624EDB6220053C67D /* Green Dark.png in Resources */,
+				D5B3E3B424EDB6220053C67D /* Green Light.png in Resources */,
 				D530340824DEC0D500893AEA /* LaunchScreen.storyboard in Resources */,
+				D5B3E3AF24EDB6220053C67D /* Green.png in Resources */,
 				D530340524DEC0D500893AEA /* Preview Assets.xcassets in Resources */,
+				D5B3E3B324EDB6220053C67D /* Pink Light.png in Resources */,
+				D5B3E3B124EDB6220053C67D /* Pink.png in Resources */,
 				D530340224DEC0D500893AEA /* Assets.xcassets in Resources */,
+				D5B3E3B524EDB6220053C67D /* Blue.png in Resources */,
+				D5B3E3B924EDBE2B0053C67D /* Default-568h@2x.png in Resources */,
+				D5F0B9AC2503962000367F61 /* GoogleService-Info.plist in Resources */,
+				D5B3E3B724EDB6220053C67D /* Blue Light.png in Resources */,
+				D5B3E3B224EDB6220053C67D /* Blue Dark.png in Resources */,
+				D5B3E3B024EDB6220053C67D /* Pink Dark.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B832E204C5B04292430E8645 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IlacKutusu/Pods-IlacKutusu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IlacKutusu/Pods-IlacKutusu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IlacKutusu/Pods-IlacKutusu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3309974DF5056C5E4D0F8E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IlacKutusu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D53033F124DEC0D300893AEA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5617CE824FA98EE00B67CEE /* TemaModel.swift in Sources */,
 				D53033F924DEC0D300893AEA /* AppDelegate.swift in Sources */,
+				D5E1338F24EC6BB4007F8E8A /* FormRowStaticView.swift in Sources */,
+				D5E1339124EC6FC0007F8E8A /* FormRowLinkView.swift in Sources */,
 				D53033FB24DEC0D300893AEA /* SceneDelegate.swift in Sources */,
 				D530340024DEC0D300893AEA /* ContentView.swift in Sources */,
+				D5ABE00824E81871004FA7E9 /* BosListeView.swift in Sources */,
+				D5617CED24FA9A5300B67CEE /* TemaAyarlar.swift in Sources */,
+				D5ABE00A24E82D22004FA7E9 /* AyarlarView.swift in Sources */,
 				D530341124DEC1D200893AEA /* MainView.swift in Sources */,
 				D53033FE24DEC0D300893AEA /* Ilac_Kutusu.xcdatamodeld in Sources */,
+				D5617CEA24FA996700B67CEE /* TemaData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +456,7 @@
 		};
 		D530340D24DEC0D500893AEA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0054261C75DA265941A87383 /* Pods-IlacKutusu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,7 +469,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "canayisik.Ilac-Kutusu";
-				PRODUCT_NAME = "Ilac Kutusu";
+				PRODUCT_NAME = IlacKutusu;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,6 +477,7 @@
 		};
 		D530340E24DEC0D500893AEA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5585AAAB80C3FAEB12B8695D /* Pods-IlacKutusu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -330,7 +490,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "canayisik.Ilac-Kutusu";
-				PRODUCT_NAME = "Ilac Kutusu";
+				PRODUCT_NAME = IlacKutusu;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -339,7 +499,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D53033F024DEC0D300893AEA /* Build configuration list for PBXProject "Ilac Kutusu" */ = {
+		D53033F024DEC0D300893AEA /* Build configuration list for PBXProject "IlacKutusu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D530340A24DEC0D500893AEA /* Debug */,
@@ -348,7 +508,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D530340C24DEC0D500893AEA /* Build configuration list for PBXNativeTarget "Ilac Kutusu" */ = {
+		D530340C24DEC0D500893AEA /* Build configuration list for PBXNativeTarget "IlacKutusu" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D530340D24DEC0D500893AEA /* Debug */,

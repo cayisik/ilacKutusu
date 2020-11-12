@@ -6,4 +6,13 @@
 //  Copyright © 2020 Can Ayışık. All rights reserved.
 //
 
-import Foundation
+import SwiftUI
+
+//Tema Model
+
+struct Tema : Identifiable
+{
+    let id: Int
+    let temaIsmi : String
+    let temaRenk : Color
+}

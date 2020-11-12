@@ -6,4 +6,17 @@
 //  Copyright © 2020 Can Ayışık. All rights reserved.
 //
 
-import Foundation
+import SwiftUI
+
+//Tema Class
+
+class TemaAyarlar:ObservableObject
+{
+    @Published var temaAyarlar: Int=UserDefaults.standard.integer(forKey: "Tema")
+    {
+        didSet
+        {
+            UserDefaults.standard.set(self.temaAyarlar, forKey: "Tema")
+        }
+    }
+}

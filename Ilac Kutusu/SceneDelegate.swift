@@ -29,7 +29,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: contentView)
+            window.rootViewController = UIHostingController(rootView: contentView.environmentObject(ikonIsim()))
             self.window = window
             window.makeKeyAndVisible()
         }
@@ -65,7 +65,38 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Save changes in the application's managed object context when the application transitions to the background.
         (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
     }
-
-
 }
 
+//IKONLAR
+
+class ikonIsim : ObservableObject
+{
+    var ikonIsim : [String?] = [nil]
+    @Published var mevcutIndex = 0
+    
+    init()
+    {
+        alternatifIkonIsimler()
+        
+        if let mevcutIkon = UIApplication.shared.alternateIconName
+        {
+            self.mevcutIndex = ikonIsim.firstIndex(of:  mevcutIkon) ?? 0
+        }
+    }
+    
+    func alternatifIkonIsimler()
+    {
+        if let ikonlar = Bundle.main.object(forInfoDictionaryKey: "CFBundleIcons") as? [String:Any],
+            let alternatifIkonlar = ikonlar["CFBundleAlternateIcons"] as? [String:Any]
+            {
+                for(_, value) in alternatifIkonlar
+                {
+                    guard let ikonListe = value as? Dictionary<String,Any> else {return}
+                    guard let ikonDosyalar = ikonListe["CFBundleIconFiles"] as? [String] else {return}
+                    guard let ikon = ikonDosyalar.first else {return}
+                    
+                    ikonIsim.append(ikon)
+                }
+            }
+    }
+}

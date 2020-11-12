@@ -1,4 +1,22 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="false" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19F101" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Deneme1" representedClassName="Deneme1" syncable="YES" codeGenerationType="class">
+        <attribute name="attribute" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="durum" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isim" optional="YES" attributeType="String"/>
+        <attribute name="zamanDil" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="IlacKutusuDB" representedClassName="IlacKutusuDB" syncable="YES" codeGenerationType="class">
+        <attribute name="dakika" optional="YES" attributeType="String"/>
+        <attribute name="durum" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="isim" optional="YES" attributeType="String"/>
+        <attribute name="saat" optional="YES" attributeType="String"/>
+        <attribute name="zamanDilimi" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="Deneme1" positionX="-63" positionY="9" width="128" height="118"/>
+        <element name="IlacKutusuDB" positionX="-63" positionY="-18" width="128" height="133"/>
+    </elements>
 </model>

@@ -6,4 +6,13 @@
 //  Copyright © 2020 Can Ayışık. All rights reserved.
 //
 
-import Foundation
+import SwiftUI
+
+//Tema Data
+
+let temaData : [Tema] =
+[
+Tema(id: 0, temaIsmi: "Pembe Tema", temaRenk: Color.pink),
+Tema(id: 1, temaIsmi: "Mavi Tema", temaRenk: Color.blue),
+Tema(id: 2, temaIsmi: "Yeşil Tema", temaRenk: Color.green)
+]
