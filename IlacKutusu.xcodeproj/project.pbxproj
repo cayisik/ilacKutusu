@@ -14,6 +14,7 @@
 		D530340224DEC0D500893AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D530340124DEC0D500893AEA /* Assets.xcassets */; };
 		D530340524DEC0D500893AEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D530340424DEC0D500893AEA /* Preview Assets.xcassets */; };
 		D530340824DEC0D500893AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D530340624DEC0D500893AEA /* LaunchScreen.storyboard */; };
+		D530341124DEC1D200893AEA /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D530341024DEC1D200893AEA /* MainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		D530340424DEC0D500893AEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D530340724DEC0D500893AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D530340924DEC0D500893AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D530341024DEC1D200893AEA /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +60,9 @@
 		D53033F724DEC0D300893AEA /* Ilac Kutusu */ = {
 			isa = PBXGroup;
 			children = (
+				D530340F24DEC14200893AEA /* View */,
 				D53033F824DEC0D300893AEA /* AppDelegate.swift */,
 				D53033FA24DEC0D300893AEA /* SceneDelegate.swift */,
-				D53033FF24DEC0D300893AEA /* ContentView.swift */,
 				D530340124DEC0D500893AEA /* Assets.xcassets */,
 				D530340624DEC0D500893AEA /* LaunchScreen.storyboard */,
 				D530340924DEC0D500893AEA /* Info.plist */,
@@ -76,6 +78,15 @@
 				D530340424DEC0D500893AEA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D530340F24DEC14200893AEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D53033FF24DEC0D300893AEA /* ContentView.swift */,
+				D530341024DEC1D200893AEA /* MainView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 				D53033F924DEC0D300893AEA /* AppDelegate.swift in Sources */,
 				D53033FB24DEC0D300893AEA /* SceneDelegate.swift in Sources */,
 				D530340024DEC0D300893AEA /* ContentView.swift in Sources */,
+				D530341124DEC1D200893AEA /* MainView.swift in Sources */,
 				D53033FE24DEC0D300893AEA /* Ilac_Kutusu.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "canayisik.Ilac-Kutusu";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Ilac Kutusu";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "canayisik.Ilac-Kutusu";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Ilac Kutusu";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
