@@ -1,0 +1,6 @@
+framework module Pods_IlacKutusu {
+  umbrella header "Pods-IlacKutusu-umbrella.h"
+
+  export *
+  module * { export * }
+}

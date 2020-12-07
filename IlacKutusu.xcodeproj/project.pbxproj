@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,7 +30,6 @@
 		D5B3E3B524EDB6220053C67D /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3AC24EDB6220053C67D /* Blue.png */; };
 		D5B3E3B624EDB6220053C67D /* Green Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3AD24EDB6220053C67D /* Green Dark.png */; };
 		D5B3E3B724EDB6220053C67D /* Blue Light.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3AE24EDB6220053C67D /* Blue Light.png */; };
-		D5B3E3B924EDBE2B0053C67D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3B824EDBE2B0053C67D /* Default-568h@2x.png */; };
 		D5E1338F24EC6BB4007F8E8A /* FormRowStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E1338E24EC6BB4007F8E8A /* FormRowStaticView.swift */; };
 		D5E1339124EC6FC0007F8E8A /* FormRowLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E1339024EC6FC0007F8E8A /* FormRowLinkView.swift */; };
 		D5F0B9AC2503962000367F61 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5F0B9AB2503962000367F61 /* GoogleService-Info.plist */; };
@@ -64,7 +63,6 @@
 		D5B3E3AC24EDB6220053C67D /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
 		D5B3E3AD24EDB6220053C67D /* Green Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Dark.png"; sourceTree = "<group>"; };
 		D5B3E3AE24EDB6220053C67D /* Blue Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Light.png"; sourceTree = "<group>"; };
-		D5B3E3B824EDBE2B0053C67D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D5E1338E24EC6BB4007F8E8A /* FormRowStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowStaticView.swift; sourceTree = "<group>"; };
 		D5E1339024EC6FC0007F8E8A /* FormRowLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowLinkView.swift; sourceTree = "<group>"; };
 		D5F0B9AB2503962000367F61 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -96,14 +94,12 @@
 				0054261C75DA265941A87383 /* Pods-IlacKutusu.debug.xcconfig */,
 				5585AAAB80C3FAEB12B8695D /* Pods-IlacKutusu.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		D53033EC24DEC0D300893AEA = {
 			isa = PBXGroup;
 			children = (
-				D5B3E3B824EDBE2B0053C67D /* Default-568h@2x.png */,
 				D53033F724DEC0D300893AEA /* Ilac Kutusu */,
 				D53033F624DEC0D300893AEA /* Products */,
 				5B505C9034B3693B181DC821 /* Pods */,
@@ -254,7 +250,6 @@
 				D5B3E3B124EDB6220053C67D /* Pink.png in Resources */,
 				D530340224DEC0D500893AEA /* Assets.xcassets in Resources */,
 				D5B3E3B524EDB6220053C67D /* Blue.png in Resources */,
-				D5B3E3B924EDBE2B0053C67D /* Default-568h@2x.png in Resources */,
 				D5F0B9AC2503962000367F61 /* GoogleService-Info.plist in Resources */,
 				D5B3E3B724EDB6220053C67D /* Blue Light.png in Resources */,
 				D5B3E3B224EDB6220053C67D /* Blue Dark.png in Resources */,
