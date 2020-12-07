@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D39C9750227415C18C1F8192 /* Pods_IlacKutusu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453FAF3551D207C5303F463F /* Pods_IlacKutusu.framework */; };
 		D53033F924DEC0D300893AEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53033F824DEC0D300893AEA /* AppDelegate.swift */; };
 		D53033FB24DEC0D300893AEA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53033FA24DEC0D300893AEA /* SceneDelegate.swift */; };
 		D53033FE24DEC0D300893AEA /* Ilac_Kutusu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D53033FC24DEC0D300893AEA /* Ilac_Kutusu.xcdatamodeld */; };
@@ -30,7 +29,6 @@
 		D5B3E3B524EDB6220053C67D /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3AC24EDB6220053C67D /* Blue.png */; };
 		D5B3E3B624EDB6220053C67D /* Green Dark.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3AD24EDB6220053C67D /* Green Dark.png */; };
 		D5B3E3B724EDB6220053C67D /* Blue Light.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3AE24EDB6220053C67D /* Blue Light.png */; };
-		D5B3E3B924EDBE2B0053C67D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D5B3E3B824EDBE2B0053C67D /* Default-568h@2x.png */; };
 		D5E1338F24EC6BB4007F8E8A /* FormRowStaticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E1338E24EC6BB4007F8E8A /* FormRowStaticView.swift */; };
 		D5E1339124EC6FC0007F8E8A /* FormRowLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E1339024EC6FC0007F8E8A /* FormRowLinkView.swift */; };
 		D5F0B9AC2503962000367F61 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5F0B9AB2503962000367F61 /* GoogleService-Info.plist */; };
@@ -38,7 +36,6 @@
 
 /* Begin PBXFileReference section */
 		0054261C75DA265941A87383 /* Pods-IlacKutusu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IlacKutusu.debug.xcconfig"; path = "Target Support Files/Pods-IlacKutusu/Pods-IlacKutusu.debug.xcconfig"; sourceTree = "<group>"; };
-		453FAF3551D207C5303F463F /* Pods_IlacKutusu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IlacKutusu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5585AAAB80C3FAEB12B8695D /* Pods-IlacKutusu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IlacKutusu.release.xcconfig"; path = "Target Support Files/Pods-IlacKutusu/Pods-IlacKutusu.release.xcconfig"; sourceTree = "<group>"; };
 		D53033F524DEC0D300893AEA /* IlacKutusu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IlacKutusu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D53033F824DEC0D300893AEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -64,7 +61,6 @@
 		D5B3E3AC24EDB6220053C67D /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
 		D5B3E3AD24EDB6220053C67D /* Green Dark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green Dark.png"; sourceTree = "<group>"; };
 		D5B3E3AE24EDB6220053C67D /* Blue Light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Blue Light.png"; sourceTree = "<group>"; };
-		D5B3E3B824EDBE2B0053C67D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D5E1338E24EC6BB4007F8E8A /* FormRowStaticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowStaticView.swift; sourceTree = "<group>"; };
 		D5E1339024EC6FC0007F8E8A /* FormRowLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormRowLinkView.swift; sourceTree = "<group>"; };
 		D5F0B9AB2503962000367F61 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -75,7 +71,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D39C9750227415C18C1F8192 /* Pods_IlacKutusu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +80,6 @@
 		3190B244E48F57B39ADDCE28 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				453FAF3551D207C5303F463F /* Pods_IlacKutusu.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -96,14 +90,12 @@
 				0054261C75DA265941A87383 /* Pods-IlacKutusu.debug.xcconfig */,
 				5585AAAB80C3FAEB12B8695D /* Pods-IlacKutusu.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		D53033EC24DEC0D300893AEA = {
 			isa = PBXGroup;
 			children = (
-				D5B3E3B824EDBE2B0053C67D /* Default-568h@2x.png */,
 				D53033F724DEC0D300893AEA /* Ilac Kutusu */,
 				D53033F624DEC0D300893AEA /* Products */,
 				5B505C9034B3693B181DC821 /* Pods */,
@@ -196,7 +188,6 @@
 				D53033F124DEC0D300893AEA /* Sources */,
 				D53033F224DEC0D300893AEA /* Frameworks */,
 				D53033F324DEC0D300893AEA /* Resources */,
-				B832E204C5B04292430E8645 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -214,7 +205,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "Can Ayışık";
 				TargetAttributes = {
 					D53033F424DEC0D300893AEA = {
@@ -254,7 +245,6 @@
 				D5B3E3B124EDB6220053C67D /* Pink.png in Resources */,
 				D530340224DEC0D500893AEA /* Assets.xcassets in Resources */,
 				D5B3E3B524EDB6220053C67D /* Blue.png in Resources */,
-				D5B3E3B924EDBE2B0053C67D /* Default-568h@2x.png in Resources */,
 				D5F0B9AC2503962000367F61 /* GoogleService-Info.plist in Resources */,
 				D5B3E3B724EDB6220053C67D /* Blue Light.png in Resources */,
 				D5B3E3B224EDB6220053C67D /* Blue Dark.png in Resources */,
@@ -265,23 +255,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		B832E204C5B04292430E8645 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IlacKutusu/Pods-IlacKutusu-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-IlacKutusu/Pods-IlacKutusu-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IlacKutusu/Pods-IlacKutusu-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C3309974DF5056C5E4D0F8E8 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -366,6 +339,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -426,6 +400,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
